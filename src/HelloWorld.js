@@ -11,7 +11,7 @@ class HelloWorld extends Component {
         this.removeGreeting = this.removeGreeting.bind(this);
     }
     spanishify() {
-        this.setState({ greeting: 'Hola' });
+        this.setState({ greeting: 'Hola2' });
     }
     lebanify() {
         this.setState({ greeting: 'Hi, keefak, sa va' });
